@@ -9,7 +9,7 @@ export default function MainImage() {
         <div className="hero">
             <div className="mask">
                 <img className="into-img"
-                    src={heroImg} alt="mainimg"
+                    src={introImg} alt="mainimg"
                 />
                 <div className="content">
                 <p>Hi im omar rosquero</p>
