@@ -1,28 +1,20 @@
 import "../WorkCards/ProjectCardStyles.css"
-import ReactGaming from "../../images/ReactGaming1.jpg"
 import { NavLink } from "react-router-dom"
-export default function ProjectCards() {
+export default function ProjectCards(props) {
     return (
         <>
-                <div className="container">
-                    <h1 className="project-heading">
-                        <div className="project-container">
-                            <div className="project-card">
-                                <img src={ReactGaming} />
-                                <h2 className="project-title">
-                                    title
+                <div className="project-card">
+                                <img src={props.imgsrc} />
+                                <h2 className="project-title">{props.title}
                                 </h2>
                                 <div className="pro-details">
-                                    <p>This is text</p>
+                                    <p>{props.text}</p>
                                     <div className="pro-buttons">
-                                        <NavLink to="url.com" className="btn">View</NavLink>
-                                        <NavLink to="url.com" className="btn">Source</NavLink>
+                                        <NavLink to={props.view} className="btn">View</NavLink>
+                                        <NavLink to="https://github.com/omardun/react-store" className="btn">Source</NavLink>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </h1>
-                </div>
         </>
     )
 }

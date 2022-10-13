@@ -3,6 +3,7 @@ import "../Navbar/NavbarStyles.css"
 import React, { useState } from "react"
 import { FaBars, FaTimes } from "react-icons/fa"
 
+
 export default function Navbar() {
     const [click, setClick] = useState(false)
     const handleClick = () => setClick(!click)
