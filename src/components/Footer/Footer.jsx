@@ -12,10 +12,10 @@ export default function Footer() {
                 <div className="left">
                     <div className="email">
                         <a href="mailto: omarosquero@gmail.com">
-                        <GrMail size={20} style={{ color: "#fff", marginRight: "2rem" }} />
+                            <GrMail size={20} style={{ color: "#fff", marginRight: "2rem" }} />
                         </a>
                         <a href="mailto: omarosquero@gmail.com">
-                        <p>omarosquero@gmail.com</p>
+                            <p>omarosquero@gmail.com</p>
                         </a>
                     </div>
                     <div className="linkedIn">

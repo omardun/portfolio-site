@@ -24,7 +24,7 @@ export default function Navbar() {
                 <h1>Portfolio</h1>
             </Link>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li>
+                <li>
                     <Link to="/">Home</Link>
                 </li>
                 <li>

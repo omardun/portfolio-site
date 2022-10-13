@@ -11,6 +11,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 40px
 }
+
 .left {
     height: 100%;
     max-width: 100%;
@@ -18,12 +19,15 @@
     flex-direction: column;
     padding: 1rem;
 }
+
 .email {
     display: flex;
 }
+
 .linkedIn {
     display: flex;
 }
+
 .location {
     display: flex;
     margin-bottom: 0.8rem;
@@ -32,6 +36,7 @@
 .location p {
     line-height: 30px;
 }
+
 .social {
     height: 100%;
     max-width: 100;
@@ -40,10 +45,12 @@
     padding: 1rem;
     justify-content: flex-end;
 }
+
 @media screen and (max-width: 640px) {
     .footer-container {
         grid-template-columns: 1fr;
     }
+
     .social {
         justify-content: left;
     }

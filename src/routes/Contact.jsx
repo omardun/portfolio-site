@@ -8,7 +8,7 @@ export default function Contact() {
     return (
         <div>
             <Navbar />
-            <Image2 heading="CONTACT" text="contact me"/>
+            <Image2 heading="CONTACT" text="contact me" />
             <Form />
             <Footer />
         </div>

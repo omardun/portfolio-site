@@ -9,7 +9,7 @@ export default function Project() {
     return (
         <div>
             <Navbar />
-            <Image2 heading="PROJECTS." text="Some of my recent work"/>
+            <Image2 heading="PROJECTS." text="Some of my recent work" />
             <Work />
             {/* <ProjectCards /> */}
             <Footer />

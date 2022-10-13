@@ -7,10 +7,10 @@ import Work from "../components/Work"
 export default function Homepage() {
     return (
         <>
-        <Navbar />
-        <MainImage />
-        <Work />
-        <Footer />
+            <Navbar />
+            <MainImage />
+            <Work />
+            <Footer />
         </>
     )
 }

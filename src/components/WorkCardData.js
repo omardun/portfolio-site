@@ -22,7 +22,7 @@ const ProjectCardData = [
         text: "loremsjhbsbjdbe",
         view: "https://profound-stroopwafel-f52cbd.netlify.app/"
     },
-    
+
 ]
 
 export default ProjectCardData;
