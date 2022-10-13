@@ -16,7 +16,7 @@
     content: "";
     height: 100%;
     width: 100%;
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
     background-color: #000;
@@ -49,6 +49,10 @@
 
 .content .btn {
     margin: 1rem 0.2rem;
+}
+.content .buttons {
+    display: flex;
+    justify-content: center;
 }
 
 @media screen and (max-width: 640px) {

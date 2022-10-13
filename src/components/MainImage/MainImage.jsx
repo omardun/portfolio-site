@@ -1,6 +1,5 @@
 import "../MainImage/MainImageStyles.css"
 import introImg from "../../images/mainImage.jpg"
-
 import { Link } from "react-router-dom"
 
 export default function MainImage() {
@@ -13,10 +12,17 @@ export default function MainImage() {
                 <div className="content">
                     <p>Hi im omar rosquero</p>
                     <h1>Im a fullstack web developer</h1>
-                    <Link to="/project" className="btn">Projects</Link>
-                    <Link to="/contact" className="btn btn-light">Contact</Link>
+                    <div className="buttons">
+                    <Link to="/contact">
+                        <button className="btn">Contact</button>
+                    </Link>
+                    <Link to="/project">
+                        <button className="btn btn-light">Project</button>
+                    </Link>
                 </div>
-
+                </div>
+               
+                
             </div>
         </div>
     )

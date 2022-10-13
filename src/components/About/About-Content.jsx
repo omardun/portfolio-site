@@ -10,7 +10,7 @@ export default function About() {
                     <h1>Who am i?</h1>
                     <p>Im a web dev student at DigitalCrafts</p>
                     <Link to="/contact">
-                        <button className="btn">Contant</button>
+                        <button className="btn">Contact</button>
                     </Link>
                 </div>
             </div>
@@ -18,3 +18,5 @@ export default function About() {
         </>
     )
 }
+{/* <Link to="/project" className="btn">Projects</Link>
+                    <Link to="/contact" className="btn btn-light">Contact</Link> */}

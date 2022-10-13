@@ -1,5 +1,4 @@
 import "../WorkCards/ProjectCardStyles.css"
-import { NavLink } from "react-router-dom"
 export default function ProjectCards(props) {
     return (
         <>
@@ -10,11 +9,13 @@ export default function ProjectCards(props) {
                 <div className="pro-details">
                     <p>{props.text}</p>
                     <div className="pro-buttons">
-                        <NavLink to={props.view} className="btn">View</NavLink>
-                        <NavLink to="https://github.com/omardun/react-store" className="btn">Source</NavLink>
+                        <a href={props.view} target="_blank"><button to={props.view} className="btn">View</button></a>
+                        <a href={props.src} target="_blank"><button className="btn">Source</button></a>
                     </div>
                 </div>
+                
             </div>
         </>
     )
 }
+
