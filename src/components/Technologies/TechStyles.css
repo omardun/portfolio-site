@@ -1,34 +1,47 @@
 .tech-container {
-    /* background-color: antiquewhite; */
     position: relative;
     width: 100%;
 }
 .tech-container h1 {
     text-align: center;
-    margin: 20px;
+    margin: 40px;
     color: #ffffff;
 }
 .tech-icons {
-    background-color: rgba(26, 25, 25, 0.743);
+    background-color: rgba(26, 25, 25, 0.309);
     position: relative;
 }
 .tech {
 display: flex;
 justify-content: space-evenly;
-
 }
 .tech-tools-icons {
     position: relative;
-    background-color: rgb(26, 25, 25, 0.743);
+    background-color: rgba(26, 25, 25, 0.309);
 }
 .tools {
     display: flex;
     justify-content: space-evenly;
 }
-i {
-    font-size: 70px;
+.tech .bg-white {
     background-color: #ffffff;
 }
-/* li {
-    cursor: pointer;
-} */
+
+@media screen and (max-width: 800px) {
+    .tech-container {
+        margin: auto;
+        max-width: 90%;
+    }
+     .tech-icons img {
+         max-width: 90%;
+     }
+     .tech {
+         display: flex;
+         flex-wrap: wrap;
+     }
+     .tools {
+         display: flex;
+         flex-wrap: wrap;
+     }
+
+}

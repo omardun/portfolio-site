@@ -23,20 +23,18 @@
 .email {
     display: flex;
 }
+.email p {
+    margin-top: 5%;
+    font-weight: 500;
+    /* font-family: ; */
+}
 
 .linkedIn {
     display: flex;
 }
-
-.location {
-    display: flex;
-    margin-bottom: 0.8rem;
+.linkedIn p {
+    margin-top: 5%;
 }
-
-.location p {
-    line-height: 30px;
-}
-
 .social {
     height: 100%;
     max-width: 100;

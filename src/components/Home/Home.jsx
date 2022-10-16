@@ -1,4 +1,4 @@
-import "../MainImage/MainImageStyles.css"
+import "./HomeStyles.css"
 import introImg from "../../images/mainImage.jpg"
 import { Link } from "react-router-dom"
 
@@ -11,7 +11,7 @@ export default function MainImage() {
                 />
                 <div className="content">
                     <p>Hi im omar rosquero</p>
-                    <h1>Im a fullstack web developer</h1>
+                    <h1>I'm a Full-Stack Web Developer</h1>
                     <div className="buttons">
                     <Link to="/contact">
                         <button className="btn">Contact</button>

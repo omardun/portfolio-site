@@ -1,14 +1,16 @@
 import "../About/About-ContentStyles.css"
 import React from "react"
 import { Link } from "react-router-dom"
-import heroImg from "../../images/heroImg.jpg"
+import Knowledge from "../../images/knowledge.jpg"
+
 export default function About() {
     return (
         <>
             <div className="about">
                 <div className="left">
-                    <h1>Who am i?</h1>
-                    <p>Im a web dev student at DigitalCrafts</p>
+                    <h1>Who is Omar?</h1>
+                    <p>Hello! I'm Omar, aside from coding I enjoy hanging out with my best friends, playing video games, listening to audio books at work, learning the elctrical trade, making custom stickers, and trading stocks. I enjoy learning new things, regardless if it's challenging. i belive stepping out of your comfort zone helps you become a better person.</p>
+                    <img className="knowledge" src={Knowledge} alt=""/>
                     <Link to="/contact">
                         <button className="btn">Contact</button>
                     </Link>
@@ -18,5 +20,3 @@ export default function About() {
         </>
     )
 }
-{/* <Link to="/project" className="btn">Projects</Link>
-                    <Link to="/contact" className="btn btn-light">Contact</Link> */}

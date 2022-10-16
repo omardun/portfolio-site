@@ -1,6 +1,6 @@
 import "../image2/Image2Styles.css"
 import React, { Component } from "react"
-
+// import two from "../../images/mainImage.jpg"
 class image2 extends Component {
     render() {
         return (
@@ -8,7 +8,6 @@ class image2 extends Component {
                 <div className="heading">
                     <h1>{this.props.heading}</h1>
                     <p>{this.props.text}</p>
-                    
                 </div>
             </div>
         )

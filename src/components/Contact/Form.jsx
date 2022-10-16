@@ -25,7 +25,7 @@ export default function Form  () {
       <input type="email" placeholder='Email' name="user_email" />
       <label>Message</label>
       <textarea placeholder='Message' name="message" />
-      <input type="submit" value="Send" />
+      <input className='btn' type="submit" value="Send" />
     </form>
   );
 };
