@@ -37,14 +37,19 @@
 }
 
 .hero .content h1 {
-    font-size: 5rem;
-    padding: 0.6rem 0 1.5rem;
-    color: #1446A0;
-    font-stretch:extra-expanded;
+    font-size: 6rem;
+    padding: 1rem 0 1.5rem;
+    color: #5e81cd;
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255); */
+    text-shadow: -1px 1px 0 rgb(255, 255, 255),
+				  1px 1px 0 rgb(255, 255, 255),
+				 1px -1px 0 rgb(255, 255, 255),
+				-1px -1px 0 rgb(255, 255, 255);
 }
 
 .hero .content p {
-    font-size: 1.4rem;
+    font-size: 2rem;
     font-weight: 200;
     text-transform: uppercase;
 }
@@ -59,7 +64,7 @@
 
 @media screen and (max-width: 640px) {
     .hero .content h1 {
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     .hero .content p {

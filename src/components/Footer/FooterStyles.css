@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@700&display=swap');
 .footer {
     width: 100%;
     padding: 6rem 0;
@@ -24,16 +25,17 @@
     display: flex;
 }
 .email p {
-    margin-top: 5%;
+    margin-top: 1%;
     font-weight: 500;
-    /* font-family: ; */
+    font-family: 'News Cycle', sans-serif;
 }
 
 .linkedIn {
     display: flex;
 }
 .linkedIn p {
-    margin-top: 5%;
+    margin-top: 1%;
+    font-family: 'News Cycle', sans-serif;
 }
 .social {
     height: 100%;

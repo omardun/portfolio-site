@@ -29,3 +29,6 @@
     padding: 40px;
     position: relative;
 }
+.left p {
+    font-size: 1.4rem;
+}
