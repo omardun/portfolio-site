@@ -27,6 +27,7 @@ justify-content: space-evenly;
     background-color: #ffffff;
 }
 
+
 @media screen and (max-width: 800px) {
     .tech-container {
         margin: auto;

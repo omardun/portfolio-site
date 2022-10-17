@@ -1,7 +1,8 @@
 import "./TechStyles.css"
 import { DiGithubBadge } from "react-icons/di";
 import { SiMiro } from "react-icons/si";
-
+import postman from "../../images/postman.svg"
+import zoom from "../../images/zoom.svg"
 
 export default function Tech() {
 
@@ -21,6 +22,8 @@ export default function Tech() {
                 <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width={70} alt="HTML5" title="HTML5"/></li>
                 <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width={70} alt="Bootstrap" title="Bootstrap"/></li>
                 <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" width={70} alt="MongoDB" title="MongoDB"/></li>
+                <li><img src={postman} width={70} alt="Postman" title="Postman"/></li>
+
             </ul>
         </div>
         <div className="tech-tools-icons">
@@ -34,6 +37,8 @@ export default function Tech() {
                 <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" width={70} alt="vsCode" title="vsCode"/></li>
                 <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain-wordmark.svg" width={70} alt="Trello" title="Trello"/></li>
                 <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original-wordmark.svg" width={70} alt="Google" title="Google"/></li>
+                <li><img src={zoom} width={70} alt="Zoom" title="Zoom"/></li>
+
             </ul>
         </div>
     </div>

@@ -4,7 +4,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { BsMedium } from "react-icons/bs";
-import gmail from "../../images/gmail.svg"
+import gmail from "../../images/gmail.png"
 export default function Footer() {
     return (
         <div className="footer">

@@ -21,11 +21,16 @@ export default function Navbar() {
     return (
         <div className={color ? "header header-bg" : "header"}>
             <Link to="/">
-                <h1>Portfolio</h1>
+                <h1>Omar Rosquero</h1>
             </Link>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
                 <li>
                     <Link to="/">Home</Link>
+                </li>
+                <li>
+                    <a href={resume} target="_blank" rel="noreferrer">
+                        <>Resume</>
+                    </a>
                 </li>
                 <li>
                     <Link to="/project">Project</Link>
@@ -36,11 +41,7 @@ export default function Navbar() {
                 <li>
                     <Link to="/about">About</Link>
                 </li>
-                <li>
-                <a href={resume} target="_blank" rel="noreferrer">
-                        <>Resume</>
-                    </a>
-                </li>
+
             </ul>
             <div className="hamburger" onClick={handleClick}>
                 {click ? (<FaTimes size={20} style={{ color: "#fff" }} />

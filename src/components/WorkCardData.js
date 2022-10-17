@@ -14,7 +14,7 @@ const ProjectCardData = [
         imgsrc: StickerUnited,
         title: "Sticker App",
         text: "You browse through our stickers choosing a category. All stickers come from our database and you are allowed to favorite it. Built with Postgres, Sequilize, NodeJs, CSS and ExpressJs",
-        // view: "https://profound-stroopwafel-f52cbd.netlify.app/",
+        view: "https://github.com/omardun/stickerUnited/tree/main/public/image",
         src: "https://github.com/omardun/stickerUnited"
 
     },
