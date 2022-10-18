@@ -16,8 +16,8 @@ export default function MainImage() {
                     <Link to="/contact">
                         <button className="btn btn-light">Contact</button>
                     </Link>
-                    <a href={resume}>
-                        <button className="btn">Resume</button>
+                    <a target="_blank" rel="noreferrer" href={resume}>
+                        <button className="btn"> PDF Resume</button>
                     </a>
                 </div>
                 </div>

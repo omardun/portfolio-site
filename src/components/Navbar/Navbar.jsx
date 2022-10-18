@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import "../Navbar/NavbarStyles.css"
 import React, { useState } from "react"
 import { FaBars, FaTimes } from "react-icons/fa"
-import resume from "../../images/Resume.pdf"
+// import resume from "../../images/Resume.pdf"
 
 export default function Navbar() {
     const [click, setClick] = useState(false)
@@ -28,12 +28,12 @@ export default function Navbar() {
                     <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <a href={resume} target="_blank" rel="noreferrer">
-                        <>Resume</>
+                    <a href="https://634ed351b6e2dd05d29a87e9--flourishing-truffle-5c385a.netlify.app/" target="_blank" rel="noreferrer">
+                        <>Online Resume</>
                     </a>
                 </li>
                 <li>
-                    <Link to="/project">Project</Link>
+                    <Link to="/project">Projects</Link>
                 </li>
                 <li>
                     <Link to="/contact">Contact</Link>
