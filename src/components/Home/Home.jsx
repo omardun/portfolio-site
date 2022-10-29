@@ -1,7 +1,7 @@
 import "./HomeStyles.css"
 import introImg from "../../images/mainImage.jpg"
 import { Link } from "react-router-dom"
-import resume from "../../images/Resume.pdf"
+import Resume from "../../images/Resume.pdf"
 export default function MainImage() {
     return (
         <div className="hero">
@@ -16,7 +16,7 @@ export default function MainImage() {
                     <Link to="/contact">
                         <button className="btn btn-light">Contact</button>
                     </Link>
-                    <a target="_blank" rel="noreferrer" href={resume}>
+                    <a target="_blank" rel="noreferrer" href={Resume}>
                         <button className="btn"> PDF Resume</button>
                     </a>
                 </div>
