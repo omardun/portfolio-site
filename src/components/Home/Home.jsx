@@ -1,7 +1,7 @@
 import "./HomeStyles.css"
 import introImg from "../../images/mainImage.jpg"
 import { Link } from "react-router-dom"
-import Resume from "../../images/Omar-Rosquero-Resume.pdf"
+import Resume from "../../images/OmarResume.pdf"
 export default function MainImage() {
     return (
         <div className="hero">
