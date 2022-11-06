@@ -28,7 +28,7 @@ export default function Navbar() {
                     <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <a href="https://634ed351b6e2dd05d29a87e9--flourishing-truffle-5c385a.netlify.app/" target="_blank" rel="noreferrer">
+                    <a href="https://omardun.github.io/Resume/" target="_blank" rel="noreferrer">
                         <>Online Resume</>
                     </a>
                 </li>
