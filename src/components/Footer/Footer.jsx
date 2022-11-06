@@ -18,14 +18,6 @@ export default function Footer() {
                             <p>omarosquero@gmail.com</p>
                         </a>
                     </div>
-                    <div className="linkedIn">
-                        <a href="https://www.linkedin.com/in/omar-rosquero-55403524b/" target="_blank" rel="noreferrer" title="linkedIn">
-                            <FaLinkedin size={40} style={{ color: "#007CBE", marginRight: "1rem" }} />
-                        </a>
-                        <a href="https://www.linkedin.com/in/omar-rosquero-55403524b/" target="_blank" rel="noreferrer" >
-                            <p>omar rosquero</p>
-                        </a>
-                    </div>
                 </div>
                 <div className="right">
                     <div className="social">
@@ -37,6 +29,9 @@ export default function Footer() {
                         </a>
                         <a href="https://twitter.com/omarosquero" target="_blank" rel="noreferrer" title="twitter" >
                             <FaTwitter size={40} style={{ color: "#007CBE", marginRight: "2rem" }} />
+                        </a>
+                        <a href="https://www.linkedin.com/in/omar-rosquero-55403524b/" target="_blank" rel="noreferrer" title="linkedIn">
+                            <FaLinkedin size={40} style={{ color: "#007CBE", marginRight: "1rem" }} />
                         </a>
                     </div>
                 </div>

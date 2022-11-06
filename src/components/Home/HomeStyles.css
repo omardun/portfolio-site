@@ -34,7 +34,9 @@
     left: 50%;
     text-align: center;
 }
-
+.content h1 {
+    color: rgb(24, 112, 189);
+}
 .hero .content h1 {
     font-size: 6rem;
     padding: 1rem 0 1.5rem;
