@@ -11,7 +11,7 @@ export default function MainImage() {
                 />
                 <div className="content">
                     <p> omar rosquero</p>
-                    <h1>I'm a Full-Stack Web Developer</h1>
+                    <h1>Full-Stack Software Developer</h1>
                     <div className="buttons">
                     <Link to="/contact">
                         <button className="btn btn-light">Contact</button>
