@@ -22,7 +22,7 @@ const ProjectCardData = [
         imgsrc: introvert,
         title: "Introvert Empowerment",
         text: "Introvert Empowerment was built for those in the world who are an introvert but would like to be more outgoing from time to time. Users can access many features including: challenges, a task manager and eventually a mobile text reminder",
-        view: "https://www.youtube.com/watch?v=Y_CmWPVy_Ng",
+        view: "",
         src: "https://github.com/JohnBenton4/Introvert-Empowerment"
 
     },
