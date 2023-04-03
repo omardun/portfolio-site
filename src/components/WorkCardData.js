@@ -1,14 +1,14 @@
-import ReactGaming from "../images/ReactGaming1.jpg"
+import barbershop from "../images/barbershop.png"
 import StickerUnited from "../images/StickerUnited.jpg"
 import introvert from "../images/introvert.jpg"
 
 const ProjectCardData = [
     {
-        imgsrc: ReactGaming,
-        title: "React Gaming",
-        text: "Online gaming store that is built with React/Redux Tool Kit, React-Bootstrap, CSS",
-        view: "https://profound-stroopwafel-f52cbd.netlify.app/",
-        src: "https://github.com/omardun/react-store"
+        imgsrc: barbershop,
+        title: "Barbershop Website",
+        text: "Barbershop website for a local business",
+        view: "https://splendid-basbousa-a2f0ca.netlify.app/",
+        src: "https://github.com/omardun/mike-barbershop"
     },
     {
         imgsrc: StickerUnited,
